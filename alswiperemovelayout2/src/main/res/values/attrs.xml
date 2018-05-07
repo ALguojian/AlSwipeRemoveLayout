@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="alswiperemovelayout">
+
+        <!--向右滑动时，左侧显示的view-->
+        <attr name="leftLayout" format="reference" />
+
+        <!--向左滑动时，右侧显示的view-->
+        <attr name="rightLayout" format="reference" />
+
+        <!--中间的view-->
+        <attr name="contentLayout" format="reference" />
+
+        <!--是否可以左滑-->
+        <attr name="openLeft" format="boolean" />
+
+        <!--是否可以右滑-->
+        <attr name="openRight" format="boolean" />
+
+        <!--滑动距离生效的距离点时滑动隐藏的view的倍数，默认0.3-->
+        <attr name="swipeDistance" format="float" />
+
+    </declare-styleable>
+
+</resources>
