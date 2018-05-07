@@ -1,4 +1,4 @@
-package com.alguojian.alswiperemovelayout
+package com.alguojian.alswiperemovelayout;
 
 /**
  * ${Descript}
@@ -7,8 +7,7 @@ package com.alguojian.alswiperemovelayout
  * @author alguojian
  */
 
-enum class State {
-
+public enum  State {
     OPEN_LEFT,
     OPEN_RIGHT,
     CLOSE
